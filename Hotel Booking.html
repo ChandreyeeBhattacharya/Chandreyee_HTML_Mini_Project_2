@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking Form</title>
+    <style>
+        h2{text-align: center;}
+    </style>
+    <Style> 
+       body{background-color:rgb(223, 179, 232)}
+    </Style>
+</head>
+<body>
+    <table bgcolor="purple" width="98%" cellpadding="10",cellspacing="100">
+        <tr>
+       <th><a target="_blank" href="HOME_PAGE.html" style="color:gold;">Home</a></th>
+       <th><a target="_blank" href="HERITAGE.html" style="color:gold;">Heritage</th></a>
+       <th style="color: red;">Hotel Booking</th>
+       <th><a target="_blank" href="GALLERY.html" style="color:gold;">Gallery</th></a>
+      </tr>
+      </table>
+    <h2 style="font-size:40px">Hotel Booking Form</h2>
+    <hr>
+    <fieldset>
+        <legend>Personal Information</legend>
+    
+    First name:
+    <input type="text" name="firstname"> 
+    Last name:
+    <input type="text" name="lastname">
+    <br>
+    <br>
+    E-mail:
+    <input type="email" name="E-mail">
+    Mobile No:
+    <input type="number" name="mobile" min="1" max="10">
+    <br>
+    <br>
+    Arrival Date:
+  
+    <input type="date">
+    <br>
+    <br>
+    Departure Date:
+   
+    <input type="date">
+    <br>
+    <br>
+    
+    Gender:
+    <input type="radio" name="gender">Male
+    <input type="radio" name="gender">Female
+    <input type="radio" name="gender">Others
+    <br>
+    <br>
+    Address:
+    <br>
+    Address Line 1:
+    <input type="text" name="Address Line 1">
+    Address Line 2:
+    <input type="text" name="Address  Line 2">
+    <br>
+    <br>
+</fieldset>
+    <br>
+    <br>
+    Free Pickup Service:
+    <input type="radio" name="Free Pickup Service">Yes
+        <input type="radio" name="Free Pickup Service">No
+        <br>
+        <br>
+
+    <fieldset>
+        <legend>Number and type of rooms to be booked.</legend>
+    Please Select the number of rooms:
+    
+    <select name="Rooms">
+        <option value="one">1</option>
+        <option value="two">2</option>
+        <option value="three">3</option>
+        <option value="four">4</option>
+        <option value="five">5</option>
+        <option value="six">6</option>
+        <option value="seven">7</option>
+        
+    </select>
+    <br>
+    <br>
+    Please Select the type of room to be booked:
+    <select name=" Type of Rooms">
+        <option value="one">A.C and 2 bedded</option>
+        <option value="one">A.C and 3 bedded</option>
+        <option value="two">Non-AC and 2 bedded</option>
+        <option value="two">Non-AC and 3 bedded</option>
+        </select>
+ </fieldset>
+    <br>
+    <br>
+<fieldset>
+    <legend>Additional Details:</legend>
+    Specially abled:
+    <input type="radio" name="Specially abled">Yes
+        <input type="radio" name="Specially abled">No
+
+</fieldset>
+</body>
+</html>
